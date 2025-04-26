@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Countdown</title>
+  </head>
+  <body>
+    <main id="root">
+      <h1 id="title">Осталось времени на прослушивание</h1>
+      <section class="countdown">
+        <div class="countdown__item days">
+          <strong id="day-value">00</strong>
+          <span>Дни</span>
+        </div>
+        <div class="countdown__item hours">
+          <strong id="hour-value">00</strong>
+          <span>Часы</span>
+        </div>
+        <div class="countdown__item minutes">
+          <strong id="minute-value">00</strong>
+          <span>Минуты</span>
+        </div>
+        <div class="countdown__item seconds">
+          <strong id="second-value">00</strong>
+          <span>Секунды</span>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
